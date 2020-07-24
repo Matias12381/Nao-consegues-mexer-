@@ -17,7 +17,7 @@
     </style>
 </head>
 <body>
-    <h1> O Akali e Lindo </h1>
+    <h1> Ola </h1>
     <p>Ola</p>
     <button onclick="Botao();">Menu</button>
     //<script>
@@ -25,7 +25,7 @@
 
 ('.buttons-mobile button').bind('click', function (e) {
     e.preventDefault();
-    $(this).siblings('.active').trigger('click');
+    Botao(this).siblings('.active').trigger('click');
 });
     //</script>
 </body>     
