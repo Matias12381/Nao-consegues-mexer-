@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ariana Consultas</title>
+    <style>
+       body{
+           background-color: black;
+       }
+       h1{
+           color: whitesmoke;
+       }
+       button{
+           color:black
+       }
+    </style>
+</head>
+<body>
+    <h1> O Akali e Lindo </h1>
+    <p>Ola</p>
+    <button onclick="Botao();">Menu</button>
+    //<script>
+        function (Botao) {
+
+('.buttons-mobile button').bind('click', function (e) {
+    e.preventDefault();
+    $(this).siblings('.active').trigger('click');
+});
+    //</script>
+</body>     
+</html>
